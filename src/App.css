@@ -1,0 +1,55 @@
+.Header {
+  background-color: #333333;
+  display: flex;
+  height: 100px;
+  color: white;
+  justify-content: center;
+  align-content: center;
+}
+
+.Footer {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+}
+
+.jobs {
+  width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px auto;
+}
+
+.Job {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  height: 280px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Job > span {
+  font-size: 18px;
+}
+
+.red {
+  border: 10px solid red;
+}
+.green {
+  border: 10px solid #3ea535;
+}
+
+.blue {
+  border: 10px solid blue;
+}
+.yellow {
+  border: 10px solid yellow;
+}
+.pink {
+  border: 10px solid pink;
+}
